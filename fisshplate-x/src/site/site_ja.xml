@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="Shift_JIS"?>
+<!--
+
+    Copyright 2004-2010 the Seasar Foundation and the Others.
+
+    Licensed under the Apache License, Version 2.0 (the "License");
+    you may not use this file except in compliance with the License.
+    You may obtain a copy of the License at
+
+        http://www.apache.org/licenses/LICENSE-2.0
+
+    Unless required by applicable law or agreed to in writing, software
+    distributed under the License is distributed on an "AS IS" BASIS,
+    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND,
+    either express or implied. See the License for the specific language
+    governing permissions and limitations under the License.
+
+
+-->
+
+<project name="Fisshplate">
+  <skin>
+    <groupId>org.seasar.project</groupId>
+    <artifactId>seasar-skin</artifactId>
+    <version>0.1.0</version>
+  </skin>
+  <bannerRight>
+    <src>http://maven.apache.org/images/maven-small.gif</src>
+  </bannerRight>
+  <body>
+    <links>
+      <item name="Seasar" href="http://www.seasar.org/"/>
+      <item name="Maven 2" href="http://maven.apache.org/maven2/"/>
+    </links>
+    <menu name="About">
+      <item name="�z�[��" href="index.html"/>
+      <item name="���C�Z���X" href="license.html"/>
+      <item name="�_�E�����[�h" href="downloads.html"/>
+    </menu>
+    <menu name="�h�L�������g">
+    	<item name="�Z�b�g�A�b�v" href="setup.html" />
+    	<item name="�e���v���[�g�̍���" href="template.html"/>
+    	<item name="�t�@�C���o�͂̎d��" href="process.html"/>
+    	<item name="�v���r���[�@�\" href="preview.html"/>
+    	<item name="���@�K�C�h" href="syntax.html"/>
+        <item name="�Ǝ��^�O�̒ǉ�" href="customtag.html"/>
+    	<item name="S2�Ƃ̘A�g" href="s2fisshplate.html"/>
+    </menu>
+    <menu name="Javadoc">
+      <item name="Fisshplate" href="apidocs/fisshplate/index.html"/>
+      <item name="S2Fisshplate" href="apidocs/s2fisshplate/index.html"/>
+    </menu>
+    ${reports}
+  </body>
+</project>
